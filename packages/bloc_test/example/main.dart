@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:bloc_test/bloc_test.dart';
-import 'package:test/test.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 // Mock Cubit
 class MockCounterCubit extends MockCubit<int> implements CounterCubit {}

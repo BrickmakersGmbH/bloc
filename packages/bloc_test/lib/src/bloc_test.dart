@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:diff_match_patch/diff_match_patch.dart';
+import 'package:flutter_test/flutter_test.dart' as test;
 import 'package:meta/meta.dart';
-import 'package:test/test.dart' as test;
 
 /// Creates a new `bloc`-specific test case with the given [description].
 /// [blocTest] will handle asserting that the `bloc` emits the [expect]ed
